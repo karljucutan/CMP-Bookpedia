@@ -3,4 +3,8 @@
 <resources>
     <string name="search_hint">Search...</string>
     <string name="search_close">Clear search</string>
+    <string name="search_results">Search Results</string>
+    <string name="favorites">Favorites</string>
+    <string name="no_search_results">Oops, no books found.</string>
+    <string name="no_search_favorites">Oops, no saved favorite books.</string>
 </resources>

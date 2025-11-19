@@ -35,7 +35,7 @@ private val books = (1..100).map {
         id = it.toString(),
         title = "Book $it",
         imageUrl = "https://test.com",
-        authors = listOf("Philipp Lackner"),
+        authors = listOf("Karl Jucutan"),
         description = "Description $it",
         languages = emptyList(),
         firstPublishYear = null,
@@ -51,7 +51,7 @@ private val books = (1..100).map {
 private fun BookListScreenPreview() {
     BookListScreen(
         state = BookListState(
-            searchResults = books
+//            searchResults = books
         ),
         onAction = {}
     )
