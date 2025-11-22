@@ -55,6 +55,7 @@ fun BookListItem(
                 val painter = rememberAsyncImagePainter(
                     model = book.imageUrl,
                     onSuccess = {
+                        imageLoadResult =
                         if (it.painter.intrinsicSize.width > 1 && it.painter.intrinsicSize.height > 1) {
                             Result.success(it.painter)
                         } else {
